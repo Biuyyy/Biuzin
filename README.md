@@ -1,7 +1,7 @@
 --[[
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
-local fov = 40
+local fov = 55
 local maxTransparency = 0.1 -- Transparência máxima dentro do círculo (0.1 = 10% de transparência)
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
@@ -9,7 +9,7 @@ local Players = game:GetService("Players")
 local Cam = game.Workspace.CurrentCamera
 
 local FOVring = Drawing.new("Circle")
-FOVring.Visible = true
+FOVring.Visible = false
 FOVring.Thickness = 2
 FOVring.Color = Color3.fromRGB(128, 0, 128) -- Cor roxa
 FOVring.Filled = false
