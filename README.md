@@ -1,7 +1,7 @@
 --[[
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
-local fov = 55
+local fov = 40
 local maxTransparency = 0.1 -- Transparência máxima dentro do círculo (0.1 = 10% de transparência)
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
